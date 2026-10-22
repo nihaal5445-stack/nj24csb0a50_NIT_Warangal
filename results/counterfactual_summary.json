@@ -1,0 +1,69 @@
+{
+  "behaviour_coefficients": {
+    "mmhg_per_hour_sleep_debt": 0.21964595136434067,
+    "mmhg_per_1000_steps": -0.1527425921334193,
+    "mmhg_per_gram_salt": 0.95
+  },
+  "by_intervention": {
+    "activity_plus30": {
+      "label": "Increase activity by 30%",
+      "true_mean_d_sbp": -0.64,
+      "twin_mean_d_sbp": -0.47,
+      "mae_mmhg": 0.17,
+      "sign_agreement": 1.0,
+      "pearson_r": 0.854,
+      "true_night_d_sbp": -0.96,
+      "twin_night_d_sbp": -0.47,
+      "mae_night_mmhg": 0.49,
+      "true_d_excursion_pct": -0.58
+    },
+    "chronotherapy": {
+      "label": "Move one agent to 21:00 dosing",
+      "true_mean_d_sbp": 0.1,
+      "twin_mean_d_sbp": 0.01,
+      "mae_mmhg": 0.09,
+      "sign_agreement": 0.991,
+      "pearson_r": 0.647,
+      "true_night_d_sbp": -1.75,
+      "twin_night_d_sbp": -2.58,
+      "mae_night_mmhg": 0.84,
+      "true_d_excursion_pct": 0.15
+    },
+    "full_adherence": {
+      "label": "Perfect medication adherence",
+      "true_mean_d_sbp": -2.16,
+      "twin_mean_d_sbp": -2.31,
+      "mae_mmhg": 1.53,
+      "sign_agreement": 0.9,
+      "pearson_r": 0.35,
+      "true_night_d_sbp": -1.73,
+      "twin_night_d_sbp": -1.9,
+      "mae_night_mmhg": 1.29,
+      "true_d_excursion_pct": -1.97
+    },
+    "salt_minus_3g": {
+      "label": "Reduce salt by 3 g/day",
+      "true_mean_d_sbp": -2.85,
+      "twin_mean_d_sbp": -2.85,
+      "mae_mmhg": 0.0,
+      "sign_agreement": 1.0,
+      "pearson_r": null,
+      "true_night_d_sbp": -2.85,
+      "twin_night_d_sbp": -2.85,
+      "mae_night_mmhg": 0.0,
+      "true_d_excursion_pct": -2.67
+    },
+    "sleep_plus_1h": {
+      "label": "Extend sleep by 1 hour",
+      "true_mean_d_sbp": -0.5,
+      "twin_mean_d_sbp": -0.78,
+      "mae_mmhg": 0.65,
+      "sign_agreement": 0.742,
+      "pearson_r": null,
+      "true_night_d_sbp": 0.03,
+      "twin_night_d_sbp": -0.78,
+      "mae_night_mmhg": 0.87,
+      "true_d_excursion_pct": -0.4
+    }
+  }
+}

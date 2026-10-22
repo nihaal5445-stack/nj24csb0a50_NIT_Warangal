@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/wearables.parquet
+.DS_Store
+data/sharee/
+.pytest_cache/

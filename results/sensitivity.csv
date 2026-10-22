@@ -1,0 +1,8 @@
+kappa,pheno_hrv,observed_cohens_d,mean_hrv_ratio_dipper,mean_hrv_ratio_nondipper,screen_auroc,nondipper_prevalence
+0.0,"{'dipper': 1.0, 'non_dipper': 1.0, 'reverse_dipper': 1.0}",0.083,1.656,1.643,0.5799,0.517
+0.15,"{'dipper': 1.0, 'non_dipper': 0.937, 'reverse_dipper': 0.901}",0.38,1.656,1.596,0.6566,0.517
+0.3,"{'dipper': 1.0, 'non_dipper': 0.874, 'reverse_dipper': 0.802}",0.694,1.656,1.551,0.8725,0.517
+0.5,"{'dipper': 1.0, 'non_dipper': 0.79, 'reverse_dipper': 0.67}",1.135,1.656,1.493,0.9284,0.517
+0.75,"{'dipper': 1.0, 'non_dipper': 0.6849999999999999, 'reverse_dipper': 0.5050000000000001}",1.704,1.656,1.424,0.949,0.517
+1.0,"{'dipper': 1.0, 'non_dipper': 0.58, 'reverse_dipper': 0.3400000000000001}",2.27,1.656,1.359,0.96,0.517
+1.3,"{'dipper': 1.0, 'non_dipper': 0.45399999999999996, 'reverse_dipper': 0.14200000000000013}",2.911,1.656,1.285,0.9847,0.517

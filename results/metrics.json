@@ -1,0 +1,92 @@
+{
+  "ehr": {
+    "n_features": 22,
+    "auroc": 0.6367,
+    "auroc_ci": [
+      0.5278,
+      0.7308
+    ],
+    "auprc": 0.4729,
+    "auprc_ci": [
+      0.3195,
+      0.6282
+    ],
+    "brier": 0.1981
+  },
+  "wear": {
+    "n_features": 25,
+    "auroc": 0.5173,
+    "auroc_ci": [
+      0.4335,
+      0.5987
+    ],
+    "auprc": 0.3145,
+    "auprc_ci": [
+      0.233,
+      0.4197
+    ],
+    "brier": 0.211
+  },
+  "fused": {
+    "n_features": 47,
+    "auroc": 0.6419,
+    "auroc_ci": [
+      0.5499,
+      0.7247
+    ],
+    "auprc": 0.4618,
+    "auprc_ci": [
+      0.3147,
+      0.6113
+    ],
+    "brier": 0.1973
+  },
+  "oracle_bp": {
+    "n_features": 76,
+    "auroc": 0.8821,
+    "auroc_ci": [
+      0.8362,
+      0.918
+    ],
+    "auprc": 0.8352,
+    "auprc_ci": [
+      0.7352,
+      0.9018
+    ],
+    "brier": 0.107
+  },
+  "persistence": {
+    "auroc": 0.8579,
+    "auroc_ci": [
+      0.8011,
+      0.8996
+    ],
+    "auprc": 0.7856
+  },
+  "sbp_threshold": {
+    "auroc": 0.8845,
+    "auroc_ci": [
+      0.839,
+      0.9201
+    ],
+    "auprc": 0.8356
+  },
+  "prevalence": 0.2992,
+  "n_test_rows": 1260,
+  "n_test_patients": 90,
+  "operating_point": {
+    "threshold": 0.2917,
+    "precision": 0.386,
+    "recall": 0.6737,
+    "f1": 0.4908
+  },
+  "dipping_screen": {
+    "auroc": 0.96,
+    "auroc_ci": [
+      0.9112,
+      0.998
+    ],
+    "n_patients": 90,
+    "prevalence": 0.5667
+  }
+}

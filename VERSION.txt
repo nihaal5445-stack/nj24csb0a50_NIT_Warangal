@@ -1,0 +1,23 @@
+CardioTwin — submission package
+Version 3  (2026-10-20)
+
+If you have more than one download, THIS is the one to use.
+Identify it: version 3 has  src/report.py  and  VERSION.txt saying Version 3.
+
+Version 3 adds:
+  - src/report.py, which regenerates the README results section and both PDFs
+    from results/*.json. No result is ever hand-typed, so the documents cannot
+    disagree with the code on your machine.
+  - pytest added to requirements.txt
+  - run_all.sh now ends by refreshing the documents automatically
+
+Why it matters: XGBoost is not bit-reproducible across CPU architectures, so an
+ARM Mac and an x86 Linux box give slightly different AUROCs from identical seeds
+and data. The conclusions do not change, but the README must quote YOUR run.
+
+Version 2 added (still present):
+  - Result 4 coupling sensitivity sweep, Result 5 deployment economics,
+    Result 6 SHAREE real-patient validation pipeline, 15 tests
+  - Corrected phenotype mix: non-dipping 45%, was an unrealistic 58%
+
+Delete all earlier versions. Do not merge them.

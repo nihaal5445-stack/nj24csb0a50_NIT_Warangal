@@ -1,0 +1,150 @@
+{
+  "assumptions": {
+    "cohort_size_modelled": 10000,
+    "abpm_unit_cost_inr": 1500,
+    "source_of_prevalence": "our synthetic cohort, enriched for non-dipping",
+    "caveat": "Illustrative mechanics on synthetic data, not a costing of a real programme. The shape of the curve is the result; the rupee figures depend entirely on the stated unit cost."
+  },
+  "held_out": {
+    "n_patients": 90,
+    "nondipper_prevalence": 0.5667,
+    "screen_auroc": 0.96
+  },
+  "universal_screening": {
+    "referred": 90,
+    "found": 51,
+    "abpm_per_find": 1.76
+  },
+  "by_budget": [
+    {
+      "budget_frac": 0.05,
+      "referred": 4,
+      "found": 4,
+      "sensitivity": 0.0784,
+      "yield_precision": 1.0,
+      "abpm_per_find": 1.0,
+      "random_expected_found": 2.6,
+      "lift_vs_random": 1.57
+    },
+    {
+      "budget_frac": 0.1,
+      "referred": 9,
+      "found": 9,
+      "sensitivity": 0.1765,
+      "yield_precision": 1.0,
+      "abpm_per_find": 1.0,
+      "random_expected_found": 5.1,
+      "lift_vs_random": 1.76
+    },
+    {
+      "budget_frac": 0.15,
+      "referred": 14,
+      "found": 14,
+      "sensitivity": 0.2745,
+      "yield_precision": 1.0,
+      "abpm_per_find": 1.0,
+      "random_expected_found": 7.6,
+      "lift_vs_random": 1.83
+    },
+    {
+      "budget_frac": 0.2,
+      "referred": 18,
+      "found": 18,
+      "sensitivity": 0.3529,
+      "yield_precision": 1.0,
+      "abpm_per_find": 1.0,
+      "random_expected_found": 10.2,
+      "lift_vs_random": 1.76
+    },
+    {
+      "budget_frac": 0.3,
+      "referred": 27,
+      "found": 25,
+      "sensitivity": 0.4902,
+      "yield_precision": 0.9259,
+      "abpm_per_find": 1.08,
+      "random_expected_found": 15.3,
+      "lift_vs_random": 1.63
+    },
+    {
+      "budget_frac": 0.4,
+      "referred": 36,
+      "found": 33,
+      "sensitivity": 0.6471,
+      "yield_precision": 0.9167,
+      "abpm_per_find": 1.09,
+      "random_expected_found": 20.4,
+      "lift_vs_random": 1.62
+    },
+    {
+      "budget_frac": 0.5,
+      "referred": 45,
+      "found": 42,
+      "sensitivity": 0.8235,
+      "yield_precision": 0.9333,
+      "abpm_per_find": 1.07,
+      "random_expected_found": 25.5,
+      "lift_vs_random": 1.65
+    }
+  ],
+  "district_programme": [
+    {
+      "budget_frac": 0.05,
+      "abpm_studies": 500,
+      "nondippers_found": 500,
+      "cost_inr": 750000,
+      "cost_per_find_inr": 1500
+    },
+    {
+      "budget_frac": 0.1,
+      "abpm_studies": 1000,
+      "nondippers_found": 1000,
+      "cost_inr": 1500000,
+      "cost_per_find_inr": 1500
+    },
+    {
+      "budget_frac": 0.15,
+      "abpm_studies": 1500,
+      "nondippers_found": 1500,
+      "cost_inr": 2250000,
+      "cost_per_find_inr": 1500
+    },
+    {
+      "budget_frac": 0.2,
+      "abpm_studies": 2000,
+      "nondippers_found": 2000,
+      "cost_inr": 3000000,
+      "cost_per_find_inr": 1500
+    },
+    {
+      "budget_frac": 0.3,
+      "abpm_studies": 3000,
+      "nondippers_found": 2778,
+      "cost_inr": 4500000,
+      "cost_per_find_inr": 1620
+    },
+    {
+      "budget_frac": 0.4,
+      "abpm_studies": 4000,
+      "nondippers_found": 3667,
+      "cost_inr": 6000000,
+      "cost_per_find_inr": 1636
+    },
+    {
+      "budget_frac": 0.5,
+      "abpm_studies": 5000,
+      "nondippers_found": 4666,
+      "cost_inr": 7500000,
+      "cost_per_find_inr": 1607
+    }
+  ],
+  "headline": {
+    "best_budget_frac": 0.2,
+    "precision_at_best": 1.0,
+    "sensitivity_at_best": 0.3529,
+    "abpm_per_find": 1.0,
+    "random_precision": 0.5667,
+    "max_possible_lift": 1.76,
+    "note": "At this prevalence the gain is in avoiding wasted studies rather than in finding a rare condition. Reported as such."
+  }
+}

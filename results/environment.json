@@ -1,0 +1,8 @@
+{
+  "python": "3.14.0",
+  "platform": "Darwin arm64",
+  "numpy": "2.4.4",
+  "pandas": "3.0.2",
+  "scikit_learn": "1.8.0",
+  "xgboost": "3.4.1"
+}
