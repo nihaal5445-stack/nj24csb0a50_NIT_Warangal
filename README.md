@@ -213,6 +213,8 @@ It validates the prognostic value of the autonomic feature in real hypertensive 
 
 ## 6. Conceptual UI dashboard
 
+**Live dashboard:** https://nihaal5445-stack.github.io/nj24csb0a50_NIT_Warangal/dashboard/
+
 `dashboard/index.html` — open it directly in a browser. Single file, no server.
 
 - Patient panel ranked by next-24h risk
