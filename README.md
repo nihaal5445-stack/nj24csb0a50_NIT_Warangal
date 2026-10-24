@@ -224,9 +224,9 @@ It validates the prognostic value of the autonomic feature in real hypertensive 
 
 ---
 
-## 7. Minimum 20-minute video
+## 7. 20-minute video
 
-**Video link:** `PASTE UNLISTED YOUTUBE URL HERE BEFORE SUBMITTING`
+**Video link:** `UNLISTED YOUTUBE URL HERE`
 
 Shot-by-shot script with timestamps: [`video/SCRIPT.md`](video/SCRIPT.md)
 
